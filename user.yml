@@ -1,0 +1,9 @@
+---
+- name: Create user on managed node
+  hosts: test 
+  tasks: 
+  - user: 
+      name: kumar
+      password: '$6$Svln7ITRN.CEMadi$KRhcSkTSW.i0xKURK4lE0ngBGCPhJ5adBKVccFkBVri.gExs9m7f2vuiqBhEHjy30cc8Wos1kEbdPIkL0tHYr0'
+      state: present
+
